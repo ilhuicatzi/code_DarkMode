@@ -38,7 +38,7 @@ function Codigo1({ darkMode_code, size} : Props) {
       <div className={`w-full bg-zinc-50 dark:bg-zinc-900/70 rounded-lg overflow-auto h-[${size}]`}>
         <pre>
           <code
-            className="block p-4 text-sm language-javascript"
+            className="block px-4 pb-4 text-sm language-javascript"
             dangerouslySetInnerHTML={{ __html: highlightedCode }}
           ></code>
         </pre>

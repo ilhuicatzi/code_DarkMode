@@ -42,7 +42,9 @@ function HomePage() {
             </CardContent>
           </Card>
 
-          <Card className="lg:w-5/6 xl:w-3/4 2xl:w-3/5 flex flex-col items-center hover:bg-zinc-50 cursor-pointer dark:hover:bg-black/80 transition group duration-300">
+          <Card 
+            onClick={() => navigate("/darkmode/nextjs")}
+          className="lg:w-5/6 xl:w-3/4 2xl:w-3/5 flex flex-col items-center hover:bg-zinc-50 cursor-pointer dark:hover:bg-black/80 transition group duration-300">
             <CardHeader>
               <CardTitle className="text-center text-lg">Next.js</CardTitle>
               <div className="overflow-hidden rounded-full flex justify-center items-center">
