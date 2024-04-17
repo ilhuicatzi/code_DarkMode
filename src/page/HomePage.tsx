@@ -28,7 +28,9 @@ function HomePage() {
       <section className=" px-10 py-10 2xl:w-3/4">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center gap-5">
 
-          <Card className="flex flex-col items-center lg:w-5/6 xl:w-3/4 2xl:w-3/5 hover:bg-zinc-50 cursor-pointer dark:hover:bg-black/80 transition group duration-300">
+          <Card 
+          onClick={() => navigate("/darkmode/astro")}
+          className="flex flex-col items-center lg:w-5/6 xl:w-3/4 2xl:w-3/5 hover:bg-zinc-50 cursor-pointer dark:hover:bg-black/80 transition group duration-300">
             <CardHeader>
               <CardTitle className="text-center text-lg">Astro</CardTitle>
               <div className="overflow-hidden rounded-full flex justify-center items-center">
